@@ -1,10 +1,11 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Abstract
+//core katmanı diğer katmanları referans almaz.Diğer projelerde de kullanılabilir olduğu için.
+namespace Core.DataAccess
 {   //generic constraint kısıtlama
     //class:referans tip
     // T IEntity veya IEntity den iplemente olan bir şey olabilir.(ref tip)
